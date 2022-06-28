@@ -18,7 +18,7 @@ const respondWithError = function(response, errorMsg) {
   response.end();
 };
 
-const BASE_URL = 'https://mymuell.jumomind.com/';
+const BASE_URL = 'https://ben.jumomind.com/';
 const PORT = process.env.PORT || 3000;
 
 http.createServer(async function(request, response) {
